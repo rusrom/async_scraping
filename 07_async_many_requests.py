@@ -5,10 +5,7 @@ import time
 
 # Fetching a single page
 # More then 1 request
-# TARGET_URL = 'https://kartochki-domana.com.ua/ru/?s=%D0%BA%D0%B0&submit=Search&post_type=product'
-# TARGET_URL = 'https://kartochki-domana.com.ua/'
-TARGET_URL = 'http://clevertoys.com.ua/'
-# TARGET_URL = 'https://google.com'
+TARGET_URL = 'https://google.com'
 
 # Our coroutine
 async def fetch_page(url):
