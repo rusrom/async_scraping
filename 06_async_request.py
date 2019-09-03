@@ -2,6 +2,7 @@ import aiohttp
 import asyncio
 
 # Fetching a single page
+# All we need is to get the event loop and run it until it completes
 
 # Our coroutine
 async def fetch_page(url):
