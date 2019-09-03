@@ -4,8 +4,6 @@ import time
 
 
 TARGET_URL = 'https://google.com/'
-# TARGET_URL = 'https://kartochki-domana.com.ua/ru/'
-# TARGET_URL = 'http://doman-cards.com.ua/'
 
 
 async def fetch_page(session, url):
